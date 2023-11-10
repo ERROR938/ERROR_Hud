@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: none;
+    height: 100vh;
+}
+
+.root {
+    display: flex;
+    position: absolute;
+    left: 16.5%;
+    bottom: 0.4vh;
+    height: 20vh;
+    width: 3.1em;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.slot {
+    overflow: hidden;
+    position: relative;
+    background: rgba(39, 39, 39, 0.753);
+    width: 2.4vw;
+    height: 4.2vh;
+    border-radius: 10em;
+    z-index: 1;
+}
+
+.slot-bg {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.heart {
+    background: red;
+}
+
+.hunger {
+    background: #ffa20b;
+}
+
+.thirst {
+    background: rgba(0, 102, 255, 0.973);
+}
+
+.shield {
+    background: #080768;
+}
+
+#icon {
+    z-index: 40;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
