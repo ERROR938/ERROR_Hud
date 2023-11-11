@@ -1,10 +1,6 @@
 local hunger, thirst = nil, nil
 local effectScreen = false
 
-local function PedNearPoint(ped, coords, radius)
-  return #(GetEntityCoords(ped) - coords) >= radius
-end
-
 AddEventHandler('esx_status:onTick', function(data)
   local healthh = math.floor((GetEntityHealth(PlayerPedId()) - 100))
   if Config.displayEffect then
