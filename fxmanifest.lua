@@ -1,9 +1,9 @@
 fx_version 'cerulean'
 game 'gta5'
 
-author ''
-description ''
-version '1.0.0'
+author 'ツ ERRØR'
+description 'Fivem Hud'
+version '1.0'
 
 shared_script 'config.lua'
 
